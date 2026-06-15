@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spec Rewrite, Reliant Mortgage Solutions</title>
+<style>
+  :root{
+    --ink:#1a1f2b;
+    --slate:#5a6473;
+    --line:#e3e6ec;
+    --paper:#ffffff;
+    --wash:#f6f7f9;
+    --old:#9aa3b0;
+    --oldbg:#f4f5f7;
+    --new:#16513f;
+    --newbg:#eef6f1;
+    --accent:#16513f;
+    --gold:#b8893f;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{
+    font-family:Georgia, 'Times New Roman', serif;
+    color:var(--ink);
+    background:var(--wash);
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:780px;margin:0 auto;background:var(--paper);}
+  .pad{padding:0 56px;}
+  /* header */
+  header{
+    background:var(--ink);
+    color:#fff;
+    padding:48px 56px 40px;
+  }
+  .brand{
+    font-family:'Helvetica Neue', Arial, sans-serif;
+    font-size:12px;
+    letter-spacing:0.22em;
+    text-transform:uppercase;
+    color:var(--gold);
+    margin-bottom:24px;
+  }
+  header h1{
+    font-size:30px;
+    font-weight:normal;
+    line-height:1.25;
+    margin-bottom:10px;
+  }
+  header .for{
+    font-family:'Helvetica Neue', Arial, sans-serif;
+    font-size:14px;
+    color:#aeb6c2;
+    letter-spacing:0.02em;
+  }
+  /* note block */
+  .note{
+    background:var(--newbg);
+    border-left:3px solid var(--accent);
+    padding:28px 32px;
+    margin:40px 56px 0;
+  }
+  .eyebrow{
+    font-family:'Helvetica Neue', Arial, sans-serif;
+    font-size:11px;
+    letter-spacing:0.18em;
+    text-transform:uppercase;
+    color:var(--accent);
+    margin-bottom:12px;
+    font-weight:600;
+  }
+  .note p{font-size:16px;margin-bottom:14px;}
+  .note p:last-child{margin-bottom:0;}
+  /* problem */
+  .problem{padding:40px 56px 8px;}
+  .problem .eyebrow{color:var(--gold);}
+  .problem p{font-size:16px;}
+  .divider{height:1px;background:var(--line);margin:36px 56px;}
+  /* section */
+  .section{padding:36px 56px 8px;margin-bottom:44px;break-inside:avoid;page-break-inside:avoid;}
+  .sec-label{
+    font-family:'Helvetica Neue', Arial, sans-serif;
+    font-size:12px;
+    letter-spacing:0.16em;
+    text-transform:uppercase;
+    color:var(--slate);
+    font-weight:600;
+    padding-bottom:10px;
+    border-bottom:2px solid var(--ink);
+    margin-bottom:28px;
+    display:inline-block;
+  }
+  .pair{margin-bottom:26px;}
+  .tag{
+    font-family:'Helvetica Neue', Arial, sans-serif;
+    font-size:11px;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    font-weight:700;
+    margin-bottom:10px;
+  }
+  .block{
+    padding:22px 26px;
+    border-radius:3px;
+    font-size:17px;
+    line-height:1.65;
+  }
+  .old .tag{color:var(--old);}
+  .old .block{background:var(--oldbg);color:var(--old);font-style:italic;}
+  .new .tag{color:var(--new);}
+  .new .block{background:var(--newbg);color:var(--ink);border-left:3px solid var(--new);}
+  .why{
+    font-family:'Helvetica Neue', Arial, sans-serif;
+    font-size:14px;
+    line-height:1.6;
+    color:var(--slate);
+    margin-top:22px;
+    padding-left:22px;
+    position:relative;
+  }
+  .why::before{
+    content:"WHY";
+    font-size:9.5px;
+    letter-spacing:0.14em;
+    font-weight:700;
+    color:var(--gold);
+    position:absolute;
+    left:0;
+    top:3px;
+    writing-mode:vertical-rl;
+    transform:rotate(180deg);
+  }
+  /* footer */
+  footer{
+    background:var(--ink);
+    color:#fff;
+    padding:44px 56px 48px;
+    margin-top:12px;
+  }
+  footer .eyebrow{color:var(--gold);margin-bottom:14px;}
+  footer p{font-size:15px;color:#cdd3dc;margin-bottom:6px;font-family:'Helvetica Neue',Arial,sans-serif;}
+  footer .sig{font-size:17px;color:#fff;margin-top:18px;font-family:Georgia,serif;}
+  @media (max-width:640px){
+    .pad,header,.problem,.section,footer{padding-left:24px;padding-right:24px;}
+    .note{margin-left:24px;margin-right:24px;padding:22px 22px;}
+    .divider{margin-left:24px;margin-right:24px;}
+    header h1{font-size:24px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="brand">Copi Creative · Conversion Copywriting</div>
+    <h1>Homepage Rewrite</h1>
+    <div class="for">Prepared for Reliant Mortgage Solutions · Sean Trombetti</div>
+  </header>
+
+  <div class="note">
+    <div class="eyebrow">A note on what you said</div>
+    <p>When we spoke, you mentioned most of your business comes from referrals, not your website. That's true for a lot of strong brokers, and it's a fair point. But here's the thing we talked about: you rank high on Google, which is exactly how I found you. So strangers with no referral are landing on your site every day, and they have nothing to judge you on but your copy. And even your referral clients Google you before they call. Your site is the trust check that decides whether that warm intro turns into a booked loan.</p>
+    <p>So your website isn't generating most of your business, but it's quietly deciding how much of it you keep. That's why this rewrite matters. It makes sure that the moment someone lands on your page, referral or stranger, they see exactly why you're the broker to call.</p>
+  </div>
+
+  <div class="problem">
+    <div class="eyebrow">The core problem</div>
+    <p>Your homepage opens with "Reliable, Responsive, and Knowledgeable." Those are three adjectives every broker claims, so a visitor's eye slides right past them. Meanwhile, the single most powerful fact about your business is buried in your footer hours: you're open seven days a week, including Sunday. No bank does that. Most brokers don't either. That's not a detail, that's a reason to choose you, and right now it's invisible. This rewrite pulls your real edge to the front and turns a list of features into reasons to call.</p>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="section">
+    <span class="sec-label">Headline</span>
+    <div class="pair old">
+      <div class="tag">Current</div>
+      <div class="block">Reliable, Responsive, and Knowledgeable.</div>
+    </div>
+    <div class="pair new">
+      <div class="tag">Rewritten</div>
+      <div class="block">Your Mortgage Questions Answered Seven Days a Week, Even Sundays.</div>
+    </div>
+    <div class="why">Your current headline tells people you're responsive. The new one proves it with a fact no competitor can match. A borrower stressed about a deadline reads this and thinks "this is the person who'll actually pick up." It turns a claim into evidence.</div>
+  </div>
+
+  <div class="section">
+    <span class="sec-label">Subhead</span>
+    <div class="pair old">
+      <div class="tag">Current</div>
+      <div class="block">None. The page jumps straight into loan bullet points.</div>
+    </div>
+    <div class="pair new">
+      <div class="tag">Rewritten</div>
+      <div class="block">Whether you found us through a friend or found us on Google, you've reached a broker who answers when it matters, shops 50-plus lenders for your rate, and treats your loan like it's the only one that counts.</div>
+    </div>
+    <div class="why">This speaks to both your referral clients and the cold traffic your SEO brings in, the strangers who land here with no introduction. It names your responsiveness, your lender access, and your personal attention in one line, before they scroll.</div>
+  </div>
+
+  <div class="section">
+    <span class="sec-label">Purchase Section</span>
+    <div class="pair old">
+      <div class="tag">Current</div>
+      <div class="block">PURCHASE. As low as 3% down payment on conventional programs and 3.5% on FHA. Use gift funds for the down payment. Use retirement funds for down payment… (feature list)</div>
+    </div>
+    <div class="pair new">
+      <div class="tag">Rewritten</div>
+      <div class="block">Buying a home? Most lenders hand you a rate and a checklist. We start with a conversation, because the right loan depends on your situation, not a template. Low down payment options from 3%, zero down for veterans, gift and retirement funds welcome, and real strategy if your credit or debt-to-income needs work. You'll understand every number before you sign anything.</div>
+    </div>
+    <div class="why">Your current bullets are accurate but cold. This keeps every fact but frames them around the borrower's experience, and it leans on your consultative, responsive style, which is your actual differentiator.</div>
+  </div>
+
+  <div class="section">
+    <span class="sec-label">Refinance Section</span>
+    <div class="pair old">
+      <div class="tag">Current</div>
+      <div class="block">REFINANCE. No waiting time after you buy a home. Improve your interest rate, refinance with us… (feature list)</div>
+    </div>
+    <div class="pair new">
+      <div class="tag">Rewritten</div>
+      <div class="block">Thinking about refinancing? Whether you want a lower payment, cash out for higher-rate debt, a shorter term, or to take someone off the loan, we'll run the real numbers and tell you honestly if it's worth it. No-closing-cost options available. And if the timing isn't right, we'll tell you that too.</div>
+    </div>
+    <div class="why">The "we'll tell you honestly if it's worth it" line builds trust fast, especially with cold SEO visitors who don't know you yet. It positions you as an advisor, not a salesperson.</div>
+  </div>
+
+  <div class="section">
+    <span class="sec-label">Pre-Approval Section</span>
+    <div class="pair old">
+      <div class="tag">Current</div>
+      <div class="block">Reliant can give you pre-approval quickly… Sellers will pay attention when you are PRE-APPROVED, not just pre-qualified!</div>
+    </div>
+    <div class="pair new">
+      <div class="tag">Rewritten</div>
+      <div class="block">Get truly pre-approved, not just pre-qualified. Sellers take pre-approved buyers seriously, and in a competitive market that's the difference between winning the house and losing it. We run your file through full underwriting up front so your offer carries real weight, and we'll have your detailed quote ready, every number explained.</div>
+    </div>
+    <div class="why">Your current version has the right idea. This sharpens the stakes, winning or losing the house, which is what the borrower actually fears, and ties it to your speed.</div>
+  </div>
+
+  <div class="section">
+    <span class="sec-label">Closing Call to Action</span>
+    <div class="pair old">
+      <div class="tag">Current</div>
+      <div class="block">Reliant Mortgage Solutions is proud to offer competitive rates and pricing.</div>
+    </div>
+    <div class="pair new">
+      <div class="tag">Rewritten</div>
+      <div class="block">Call or message any day of the week, we mean it. Most lenders make you wait until Monday. We're here when your questions are, because that's when they matter most.</div>
+    </div>
+    <div class="why">Ends the page by hammering your one unbeatable edge one more time. The last thing they read is the reason you're different.</div>
+  </div>
+
+  <footer>
+    <div class="eyebrow">This one's yours</div>
+    <p>No catch. I put this together because I think it'll help. If it's useful and you'd ever want it live on your site, just reach out and we'll talk. Either way, the rewrite is yours to keep.</p>
+    <div class="sig">Edo Walker IV</div>
+    <p>Copi Creative · hello@copicreative.co</p>
+  </footer>
+
+</div>
+</body>
+</html>
